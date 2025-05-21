@@ -70,3 +70,21 @@ a {
     margin-right: 10px;
     color: rgba(3, 63, 176, 1);
 }
+.form-wrapper {
+    margin-top: 12px;
+}
+.form-wrapper .form-control {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 25px 16px;
+    text-align: left;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+.form-wrapper .form-control:focus {
+    box-shadow: none;
+}
