@@ -1,38 +1,58 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
 a {
     transition: all 0.5s ease;
 }
+
 .admin-wrapper {
     margin: 48px 60px;
 }
+
 .quick-actions {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
-    padding:0 0 20px 0;
+    padding: 0 0 20px 0;
 }
+
 .quick-actions a {
     text-decoration: none;
 }
+
 .quick-actions .cancel {
     color: rgba(218, 0, 0, 1);
 }
+
 .quick-actions .edit {
     color: rgba(0, 0, 0, 1)
 }
+
 .quick-actions .save {
     color: rgba(3, 63, 176, 1)
 }
+
+.quick-actions .preview-title {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+
+}
+
 .file-upload-wrapper {
     background: rgba(240, 240, 254, 1);
     border: 2px dashed rgba(209, 211, 235, 1);
     text-align: center;
     padding: 20px;
 }
-.file-upload-wrapper  h6 {
+
+.file-upload-wrapper h6 {
     font-weight: 600;
     font-size: 22px;
     line-height: 100%;
@@ -41,7 +61,8 @@ a {
     color: rgba(0, 0, 0, 1);
     margin-bottom: 10px;
 }
-.file-upload-wrapper  p {
+
+.file-upload-wrapper p {
     font-weight: 400;
     font-size: 18px;
     line-height: 16px;
@@ -50,11 +71,13 @@ a {
     margin-bottom: 24px;
     color: rgba(0, 0, 0, 0.42);
 }
+
 .file-thumb {
     width: 190px;
 }
+
 .fileupload-btn {
-    border:1px solid rgba(3, 63, 176, 1);
+    border: 1px solid rgba(3, 63, 176, 1);
     font-weight: 600;
     font-size: 20px;
     line-height: 16px;
@@ -66,13 +89,16 @@ a {
     border-radius: 10px;
     color: rgba(3, 63, 176, 1);
 }
+
 .fileupload-btn i {
     margin-right: 10px;
     color: rgba(3, 63, 176, 1);
 }
+
 .form-wrapper {
     margin-top: 12px;
 }
+
 .form-wrapper .form-control {
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-weight: 400;
@@ -85,6 +111,289 @@ a {
     margin-bottom: 16px;
     border-radius: 10px;
 }
+
 .form-wrapper .form-control:focus {
     box-shadow: none;
+}
+
+.form-wrapper-bordered {
+    background: rgba(248, 250, 255, 1);
+    border: 1px solid rgba(217, 217, 217, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-more {
+    color: rgba(3, 63, 176, 0.75);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-top: 10previewpx;
+}
+
+.preview-wrapper {
+    background: url(../images/preview-bg.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: calc(140vh);
+    position: relative;
+}
+
+.preview {
+    color: #fff;
+    background: linear-gradient(180.06deg, rgba(217, 217, 217, 0) 0.05%, rgba(28, 43, 58, 0.39) 11.19%, rgba(28, 43, 58, 0.82) 19.99%, rgba(28, 43, 58, 0.8) 32.13%, #1C2B3A 50.38%);
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    border-radius: 10px;
+}
+
+.preview h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0%;
+}
+
+.preview h6 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.preview p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.preview h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.preview h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+    letter-spacing: 0%;
+
+}
+
+.preview .btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0%;
+    border-radius: 50px;
+    padding: 10px 40px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.preview .btn-outline {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.preview .btn-outline:hover {
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.preview .btn-dark {
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.preview .btn-dark:hover {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.preview .btn-dark img {
+    margin-left: 10px;
+}
+
+.preview-btn {
+    background: rgba(3, 63, 176, 1);
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.form-check-input {
+    transform: scale(1.5);
+    border: 1px solid rgba(179, 179, 179, 1);
+    border-radius: 10px;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: rgba(3, 63, 176, 1);
+    border-color: rgba(3, 63, 176, 1);
+}
+
+.form-check-label {
+    color: rgba(0, 0, 0, 0.64);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 10px;
+}
+.sub-categories {
+    margin-top: 40px;
+}
+.sub-categories h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.add-new {
+    text-decoration: none;
+    display: inline-block;
+    background: rgba(3, 63, 176, 1);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 14px 36px;
+    color: #fff;
+    border-radius: 8px;
+    line-height: 1;
+}
+.add-new i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.service-item-card {
+    position: relative;
+}
+.card {
+    color: #fff;
+
+}
+p.service-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.explore {
+    width: 50px;
+    height: 50px;
+    background: rgb(131, 145, 162);
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    padding-top: 8px;
+    transition: all 0.5s ease;
+}
+.explore i {
+    color: #fff;
+    font-size: 26px;
+}
+.explore:hover {
+    background: #1C1660;
+}
+.service-item-card .explore img {
+width: 20px;
+}
+.service-item-card {
+    height: 186px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom:24px ;
+}
+.service-item-card img {
+    width: 100%;
+    transform: translate(0px,-150px);
+}
+.service-card-body {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 30px 20px;
+    background: linear-gradient(179.98deg, rgba(217, 217, 217, 0) -7.36%, rgba(0, 24, 54, 0.675) 51.47%, rgba(10, 39, 74, 0.9) 99.99%);
+
+}
+.preview-category-wrapper {
+    height: 181vh;
+    overflow: auto;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .admin-wrapper {
+        margin: 30px 10px;
+    }
+
+    .preview-btn {
+        margin-bottom: 30px;
+    }
+
+    .preview h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0%;
+    }
+
+    .preview h6 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .preview p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: justify;
+    }
+
+    .preview h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .preview-wrapper {
+        height: calc(90vh);
+    }
 }
