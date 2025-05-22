@@ -1,16 +1,13 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
 
-a {
-    transition: all 0.5s ease;
-}
 
 .admin-wrapper {
+    font-family: "Montserrat", sans-serif;
     margin: 48px 60px;
 }
-
-.quick-actions {
+.admin-wrapper a {
+    transition: all 0.5s ease;
+}
+.admin-wrapper .quick-actions {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
@@ -18,23 +15,23 @@ a {
     padding: 0 0 20px 0;
 }
 
-.quick-actions a {
+.admin-wrapper .quick-actions a {
     text-decoration: none;
 }
 
-.quick-actions .cancel {
+.admin-wrapper .quick-actions .cancel {
     color: rgba(218, 0, 0, 1);
 }
 
-.quick-actions .edit {
+.admin-wrapper .quick-actions .edit {
     color: rgba(0, 0, 0, 1)
 }
 
-.quick-actions .save {
+.admin-wrapper .quick-actions .save {
     color: rgba(3, 63, 176, 1)
 }
 
-.quick-actions .preview-title {
+.admin-wrapper .quick-actions .preview-title {
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
     font-size: 24px;
@@ -45,14 +42,14 @@ a {
 
 }
 
-.file-upload-wrapper {
+.admin-wrapper .file-upload-wrapper {
     background: rgba(240, 240, 254, 1);
     border: 2px dashed rgba(209, 211, 235, 1);
     text-align: center;
     padding: 20px;
 }
 
-.file-upload-wrapper h6 {
+.admin-wrapper .admin-wrapper .file-upload-wrapper h6 {
     font-weight: 600;
     font-size: 20px;
     line-height: 100%;
@@ -62,7 +59,7 @@ a {
     margin-bottom: 10px;
 }
 
-.file-upload-wrapper p {
+.admin-wrapper .file-upload-wrapper p {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -72,11 +69,11 @@ a {
     color: rgba(0, 0, 0, 0.42);
 }
 
-.file-thumb {
+.admin-wrapper .file-thumb {
     width: 120px;
 }
 
-.fileupload-btn {
+.admin-wrapper .fileupload-btn {
     border: 1px solid rgba(3, 63, 176, 1);
     font-weight: 600;
     font-size: 16px;
@@ -90,16 +87,16 @@ a {
     color: rgba(3, 63, 176, 1);
 }
 
-.fileupload-btn i {
+.admin-wrapper .fileupload-btn i {
     margin-right: 10px;
     color: rgba(3, 63, 176, 1);
 }
 
-.form-wrapper {
+.admin-wrapper .form-wrapper {
     margin-top: 12px;
 }
 
-.form-wrapper .form-control {
+.admin-wrapper .form-wrapper .form-control {
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-weight: 400;
     font-size: 14px;
@@ -112,18 +109,18 @@ a {
     border-radius: 10px;
 }
 
-.form-wrapper .form-control:focus {
+.admin-wrapper .form-wrapper .form-control:focus {
     box-shadow: none;
 }
 
-.form-wrapper-bordered {
+.admin-wrapper .form-wrapper-bordered {
     background: rgba(248, 250, 255, 1);
     border: 1px solid rgba(217, 217, 217, 1);
     padding: 20px;
     border-radius: 10px;
 }
 
-.add-more {
+.admin-wrapper .add-more {
     color: rgba(3, 63, 176, 0.75);
     font-weight: 400;
     font-size: 14px;
@@ -136,7 +133,7 @@ a {
     margin-top: 10previewpx;
 }
 
-.preview-wrapper {
+.admin-wrapper .preview-wrapper {
     background: url(../images/preview-bg.jpg) no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -144,7 +141,7 @@ a {
     position: relative;
 }
 
-.preview {
+.admin-wrapper .preview {
     color: #fff;
     background: linear-gradient(180.06deg, rgba(217, 217, 217, 0) 0.05%, rgba(28, 43, 58, 0.39) 11.19%, rgba(28, 43, 58, 0.82) 19.99%, rgba(28, 43, 58, 0.8) 32.13%, #1C2B3A 50.38%);
     padding: 24px;
@@ -154,21 +151,21 @@ a {
     border-radius: 10px;
 }
 
-.preview h2 {
+.admin-wrapper .preview h2 {
     font-weight: 600;
     font-size: 28px;
     line-height: 43px;
     letter-spacing: 0%;
 }
 
-.preview h6 {
+.admin-wrapper .preview h6 {
     font-weight: 600;
     font-size: 22px;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
-.preview p {
+.admin-wrapper .preview p {
     font-weight: 500;
     font-size: 16px;
     line-height: 31px;
@@ -176,14 +173,14 @@ a {
     text-align: justify;
 }
 
-.preview h1 {
+.admin-wrapper .preview h1 {
     font-weight: 700;
     font-size: 38px;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
-.preview h4 {
+.admin-wrapper .preview h4 {
     font-weight: 400;
     font-size: 18px;
     line-height: 12px;
@@ -191,7 +188,7 @@ a {
 
 }
 
-.preview .btn {
+.admin-wrapper .preview .btn {
     font-weight: 600;
     font-size: 20px;
     line-height: 29px;
@@ -203,35 +200,35 @@ a {
     margin-top: 46px;
 }
 
-.preview .btn-outline {
+.admin-wrapper .preview .btn-outline {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.preview .btn-outline:hover {
+.admin-wrapper .preview .btn-outline:hover {
     background: rgba(0, 0, 0, 1);
     border: 1px solid rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.preview .btn-dark {
+.admin-wrapper .preview .btn-dark {
     background: rgba(0, 0, 0, 1);
     border: 1px solid rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.preview .btn-dark:hover {
+.admin-wrapper .preview .btn-dark:hover {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.preview .btn-dark img {
+.admin-wrapper .preview .btn-dark img {
     margin-left: 10px;
 }
 
-.preview-btn {
+.admin-wrapper .preview-btn {
     background: rgba(3, 63, 176, 1);
     padding: 20px 30px;
     color: #fff;
@@ -246,22 +243,22 @@ a {
     text-decoration: none;
 }
 
-.form-check-input {
+.admin-wrapper .form-check-input {
     transform: scale(1.5);
     border: 1px solid rgba(179, 179, 179, 1);
     border-radius: 10px;
 }
 
-.form-check-input:focus {
+.admin-wrapper .form-check-input:focus {
     box-shadow: none;
 }
 
-.form-check-input:checked {
+.admin-wrapper .form-check-input:checked {
     background-color: rgba(3, 63, 176, 1);
     border-color: rgba(3, 63, 176, 1);
 }
 
-.form-check-label {
+.admin-wrapper .form-check-label {
     color: rgba(0, 0, 0, 0.64);
     font-weight: 500;
     font-size: 16px;
@@ -270,10 +267,10 @@ a {
     text-align: center;
     margin-left: 10px;
 }
-.sub-categories {
+.admin-wrapper .sub-categories {
     margin-top: 40px;
 }
-.sub-categories h3 {
+.admin-wrapper .sub-categories h3 {
     font-weight: 500;
     font-size: 22px;
     line-height: 16px;
@@ -282,7 +279,7 @@ a {
     color: rgba(0, 0, 0, 1);
 }
 
-.add-new {
+.admin-wrapper .add-new {
     text-decoration: none;
     display: inline-block;
     background: rgba(3, 63, 176, 1);
@@ -293,25 +290,25 @@ a {
     border-radius: 8px;
     line-height: 1;
 }
-.add-new i {
+.admin-wrapper .add-new i {
     font-size: 20px;
     margin-right: 10px;
 }
-.service-item-card {
+.admin-wrapper .service-item-card {
     position: relative;
 }
-.card {
+.admin-wrapper .card {
     color: #fff;
 
 }
-p.service-text {
+.admin-wrapper p.service-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0%;
     margin-bottom: 10px;
 }
-.explore {
+.admin-wrapper .explore {
     width: 50px;
     height: 50px;
     background: rgb(131, 145, 162);
@@ -321,27 +318,27 @@ p.service-text {
     padding-top: 8px;
     transition: all 0.5s ease;
 }
-.explore i {
+.admin-wrapper .explore i {
     color: #fff;
     font-size: 26px;
 }
-.explore:hover {
+.admin-wrapper .explore:hover {
     background: #1C1660;
 }
-.service-item-card .explore img {
+.admin-wrapper .service-item-card .explore img {
 width: 20px;
 }
-.service-item-card {
+.admin-wrapper .service-item-card {
     height: 186px;
     overflow: hidden;
     border-radius: 15px;
     margin-bottom:24px ;
 }
-.service-item-card img {
+.admin-wrapper .service-item-card img {
     width: 100%;
     transform: translate(0px,-150px);
 }
-.service-card-body {
+.admin-wrapper .service-card-body {
     width: 100%;
     position: absolute;
     left: 0;
@@ -351,7 +348,7 @@ width: 20px;
     background: linear-gradient(179.98deg, rgba(217, 217, 217, 0) -7.36%, rgba(0, 24, 54, 0.675) 51.47%, rgba(10, 39, 74, 0.9) 99.99%);
 
 }
-.preview-category-wrapper {
+.admin-wrapper .preview-category-wrapper {
     height: 148vh;
     overflow: auto;
 }
@@ -360,25 +357,25 @@ width: 20px;
         margin: 30px 10px;
     }
 
-    .preview-btn {
+    .admin-wrapper .preview-btn {
         margin-bottom: 30px;
     }
 
-    .preview h2 {
+    .admin-wrapper .preview h2 {
         font-weight: 600;
         font-size: 20px;
         line-height: 1.25;
         letter-spacing: 0%;
     }
 
-    .preview h6 {
+    .admin-wrapper .preview h6 {
         font-weight: 600;
         font-size: 18px;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .preview p {
+    .admin-wrapper .preview p {
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -386,14 +383,14 @@ width: 20px;
         text-align: justify;
     }
 
-    .preview h1 {
+    .admin-wrapper .preview h1 {
         font-weight: 700;
         font-size: 30px;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .preview-wrapper {
+    .admin-wrapper .preview-wrapper {
         height: calc(90vh);
     }
 }
