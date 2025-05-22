@@ -54,7 +54,7 @@ a {
 
 .file-upload-wrapper h6 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
@@ -64,7 +64,7 @@ a {
 
 .file-upload-wrapper p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
@@ -73,13 +73,13 @@ a {
 }
 
 .file-thumb {
-    width: 190px;
+    width: 120px;
 }
 
 .fileupload-btn {
     border: 1px solid rgba(3, 63, 176, 1);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
@@ -102,11 +102,11 @@ a {
 .form-wrapper .form-control {
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
-    padding: 25px 16px;
+    padding: 12px 16px;
     text-align: left;
     margin-bottom: 16px;
     border-radius: 10px;
@@ -126,7 +126,7 @@ a {
 .add-more {
     color: rgba(3, 63, 176, 0.75);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
@@ -140,7 +140,7 @@ a {
     background: url(../images/preview-bg.jpg) no-repeat;
     background-size: cover;
     border-radius: 10px;
-    height: calc(140vh);
+    height: calc(108vh);
     position: relative;
 }
 
@@ -156,21 +156,21 @@ a {
 
 .preview h2 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 43px;
     letter-spacing: 0%;
 }
 
 .preview h6 {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
 .preview p {
     font-weight: 500;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 31px;
     letter-spacing: 0%;
     text-align: justify;
@@ -178,14 +178,14 @@ a {
 
 .preview h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
 .preview h4 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 12px;
     letter-spacing: 0%;
 
@@ -236,7 +236,7 @@ a {
     padding: 20px 30px;
     color: #fff;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
@@ -264,7 +264,7 @@ a {
 .form-check-label {
     color: rgba(0, 0, 0, 0.64);
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
@@ -352,7 +352,7 @@ width: 20px;
 
 }
 .preview-category-wrapper {
-    height: 181vh;
+    height: 148vh;
     overflow: auto;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
