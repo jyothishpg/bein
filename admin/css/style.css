@@ -48,6 +48,12 @@
     text-align: center;
     padding: 20px;
 }
+.admin-wrapper .file-upload-wrapper.small-left {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 20px;
+}
 
 .admin-wrapper .admin-wrapper .file-upload-wrapper h6 {
     font-weight: 600;
@@ -351,6 +357,84 @@ width: 20px;
 .admin-wrapper .preview-category-wrapper {
     height: 148vh;
     overflow: auto;
+}
+
+.admin-wrapper .card.portfolio-item-card {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.admin-wrapper .card.portfolio-item-card .image-thumb-main {
+    transform: translate(0%, -36%);
+}
+
+.admin-wrapper .card.portfolio-item-card h5 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.admin-wrapper .card.portfolio-card {
+    overflow: hidden;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.admin-wrapper .card.portfolio-card .card-body {
+    padding: 0;
+    border: none;
+}
+
+.admin-wrapper .card.portfolio-card .card-body img {
+    width: 100%;
+}
+
+.admin-wrapper .card.portfolio-card .card-footer {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 1.64%, rgba(16, 37, 63, 0.3) 19.08%, rgba(13, 34, 57, 0.7) 45.01%, #08203F 75.27%);
+    height: 108px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+}
+.admin-wrapper  .footer-content-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 8px 15px;
+}
+.admin-wrapper .right-corner-bg {
+    position: absolute;
+    right: -16px;
+    bottom: -27px;
+    width: 107px;
+    height: 90px;
+    background: url(../images/btn-bg.png) no-repeat;
+}
+.admin-wrapper .portfolio-item-card .card-footer a.portfolio-btn {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(3, 63, 176, 1);
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.admin-wrapper .portfolio-item-card .card-footer a.portfolio-btn i {
+    color: rgba(3, 63, 176, 1);
+    font-size: 22px;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     .admin-wrapper {
